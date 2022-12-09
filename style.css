@@ -8,6 +8,10 @@
   height: 100vh;
   width: 100%;
   background-color:rgb(54, 52, 52);
+  background-image: url(hero.png);
+  background-repeat: no-repeat; 
+  background-position: 80% 90%;
+ 
 
  }
  nav {
@@ -38,11 +42,11 @@
 
  nav ul li a:hover {
 
-   color: #f53030;
+   color:#ba68c8;
     transition: .4s;
  }
  .btn {
-    background-color: #f53030 ;
+    background-color: #ba68c8 ;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -59,7 +63,9 @@
     left: 8%;
     transform: translateY(-50%);
 }
-
+#coder {
+    
+}
 h1 {
     color: white;
     margin: 20px 0px 20px;
@@ -71,13 +77,59 @@ h3 {
     margin-bottom: 50px;
 }
 h4 {
-    color:#fcfc ;
+    color:#ba68c8;
     letter-spacing: 2px;
     font-size: 20px;
 }
-img {
+.content img {
 border-radius: 50%;
 width: 200px;
 height: 200px;
 }
+.about {
+    width: 100%;
+    padding: 100px 0px ;
+    background-color: rgb(54, 52, 52);
+}
+.about img {
+height: auto;
+width: 430px;
+background-color: transparent;
+}
+.about-text {
+    width: 550px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
+}
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+span {
+    color: #ba68c8
+    ;
+}
